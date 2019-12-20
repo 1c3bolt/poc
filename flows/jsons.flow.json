@@ -1,0 +1,45 @@
+{
+  "name" : "jsons",
+  "description" : "",
+  "batchSize" : 100,
+  "threadCount" : 4,
+  "stopOnError" : false,
+  "options" : { },
+  "version" : 0,
+  "steps" : {
+    "1" : {
+      "name" : "injsons",
+      "description" : "",
+      "options" : {
+        "additionalCollections" : [ "final" ],
+        "headers" : {
+          "sources" : [ {
+            "name" : "jsons"
+          } ],
+          "createdOn" : "currentDateTime",
+          "createdBy" : "currentUser"
+        },
+        "sourceQuery" : "cts.collectionQuery([])",
+        "collections" : [ "injsons", "final" ],
+        "permissions" : "rest-reader,read,rest-writer,update",
+        "outputFormat" : "json",
+        "targetDatabase" : "data-hub-CS-FINAL"
+      },
+      "customHook" : { },
+      "retryLimit" : null,
+      "batchSize" : null,
+      "threadCount" : null,
+      "stepDefinitionName" : "default-ingestion",
+      "stepDefinitionType" : "INGESTION",
+      "fileLocations" : {
+        "inputFilePath" : "C:\\projects\\creditsuisse\\other\\data\\draft",
+        "inputFileType" : "json",
+        "outputURIReplacement" : ".*/draft,'/creditsuisse/draft'",
+        "separator" : ","
+      },
+      "mappingStep" : false,
+      "customStep" : false,
+      "mappingName" : null
+    }
+  }
+}

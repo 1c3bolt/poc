@@ -1,0 +1,22 @@
+{
+  "lang" : "zxx",
+  "name" : "newenv2",
+  "description" : "",
+  "type" : "CUSTOM",
+  "version" : 1,
+  "options" : {
+    "additionalCollections" : [ ],
+    "sourceQuery" : "cts.collectionQuery([\"raw\"])",
+    "targetEntity" : "document",
+    "collections" : [ "newenv2", "document" ],
+    "sourceDatabase" : "data-hub-CS-STAGING",
+    "sourceCollection" : "raw",
+    "outputFormat" : "xml",
+    "targetDatabase" : "data-hub-CS-FINAL"
+  },
+  "customHook" : { },
+  "modulePath" : "/custom-modules/custom/newenv2/main.sjs",
+  "retryLimit" : 0,
+  "batchSize" : 100,
+  "threadCount" : 4
+}

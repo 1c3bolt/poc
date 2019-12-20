@@ -1,0 +1,100 @@
+{
+  "chapter" : {
+    "x" : 734,
+    "y" : 400,
+    "width" : 541,
+    "height" : 265,
+    "vertices" : { }
+  },
+  "corrData" : {
+    "x" : 1732,
+    "y" : 205,
+    "width" : 366,
+    "height" : 137,
+    "vertices" : { }
+  },
+  "data" : {
+    "x" : 311,
+    "y" : 100,
+    "width" : 350,
+    "height" : 202,
+    "vertices" : { }
+  },
+  "disclamer" : {
+    "x" : 1935,
+    "y" : 803,
+    "width" : 400,
+    "height" : 164,
+    "vertices" : { }
+  },
+  "document" : {
+    "x" : 62,
+    "y" : 39,
+    "width" : 601,
+    "height" : 269,
+    "vertices" : { }
+  },
+  "section" : {
+    "x" : 750,
+    "y" : 84,
+    "width" : 506,
+    "height" : 248,
+    "vertices" : { }
+  },
+  "sections" : {
+    "x" : 801,
+    "y" : 553,
+    "width" : 350,
+    "height" : 100,
+    "vertices" : { }
+  },
+  "securitiesData" : {
+    "x" : 1251,
+    "y" : 238,
+    "width" : 350,
+    "height" : 254,
+    "vertices" : { }
+  },
+  "system" : {
+    "x" : 971,
+    "y" : 769,
+    "width" : 464,
+    "height" : 145,
+    "vertices" : { }
+  },
+  "volumes" : {
+    "x" : 1754,
+    "y" : 568,
+    "width" : 402,
+    "height" : 143,
+    "vertices" : { }
+  },
+  "Document" : {
+    "x" : 10,
+    "y" : 115,
+    "width" : 350,
+    "height" : 122,
+    "vertices" : { }
+  },
+  "volume" : {
+    "x" : 1339,
+    "y" : 52,
+    "width" : 494,
+    "height" : 257,
+    "vertices" : { }
+  },
+  "appendix" : {
+    "x" : 143,
+    "y" : 410,
+    "width" : 484,
+    "height" : 235,
+    "vertices" : { }
+  },
+  "appendices" : {
+    "x" : 1329,
+    "y" : 500,
+    "width" : 350,
+    "height" : 100,
+    "vertices" : { }
+  }
+}

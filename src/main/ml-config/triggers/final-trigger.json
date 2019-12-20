@@ -1,0 +1,21 @@
+{
+  "name": "final-trigger",
+  "description": "trigger draft permission change",
+  "event": {
+    "data-event": {
+      "collection-scope": {
+        "uri": "/final/"
+      },
+      "document-content": {
+        "update-kind": "create"
+      },
+      "when": "pre-commit"
+    }
+  },
+  "module": "/triggers/final.xqy",
+  "module-db": "%%MODULES_DATABASE%%",
+  "module-root": "/",
+  "enabled": true,
+  "recursive": false,
+  "task-priority": "normal"
+}
